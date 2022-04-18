@@ -1,0 +1,453 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.header {
+    text-align: center;
+    color:#000;
+    background: #EEEEEE;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    padding: 2px;
+}
+
+.item-menu{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom: solid 1px #000;
+    padding-bottom: 20px;
+}
+
+ul{
+    list-style: none;
+}
+
+ul ul{
+    position: absolute;
+    display: none;
+    background-color: white;
+    z-index: 1;
+}
+
+ul ul li{
+    display: block;
+}
+
+ul li:hover ul{
+    display: block;
+}
+
+.sub-item{
+    position: relative;
+    font-size: 14px;
+    padding: 5px;
+
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Palette Mosaic', cursive;
+    font-family: 'Sora', sans-serif;
+    color: black;
+}
+
+.item-menu:hover{
+    color: black;
+    font-weight:bold
+}
+
+p {
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Palette Mosaic', cursive;
+    font-family: 'Sora', sans-serif;
+    color: black;
+}
+
+h2{
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Palette Mosaic', cursive;
+    font-family: 'Sora', sans-serif;
+    font-size:xx-large;
+    padding: 20px;
+}
+
+h3{
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Palette Mosaic', cursive;
+    font-family: 'Sora', sans-serif;
+    font-size:large;
+    padding: 20px;
+}
+
+.section-footer-categorias-item{
+    padding: 5px;
+}
+
+.logo {
+    width: 200px;
+    margin: 40px 20px;
+}
+
+.novedades{
+    text-align: center;
+
+}
+
+/* grid con imagenes de novedades*/
+.gridNovedades{
+    display: grid;
+    grid-template-areas: "novedadUno novedadDos novedadTres";
+    padding: 25px 25px;
+    border: 1px solid black;
+    background-color: #F7F7F7;
+}
+
+
+.gridNovedades img{ 
+    width: 100%;
+}
+
+.novedadUno{
+    grid-area: novedadUno;
+}
+
+.novedadDos{
+    grid-area: novedadDos;
+}
+.novedadTres{
+    grid-area: novedadTres;
+}
+
+.descuentos{
+    text-align: center;
+
+}
+
+/* grid de imagenes de descuentos*/
+.gridDescuentos{
+    display: grid;
+    grid-template-areas: "descuentoUno descuentoDos descuentoTres descuentoCuatro";
+    padding: 25px 25px;
+    border: 1px solid black;
+    background-color: #F7F7F7;
+}
+
+
+.gridDescuentos img{ 
+    width: 80%;
+}
+
+.descuentoUno{
+    grid-area: descuentoUno;
+}
+
+.descuentoDos{
+    grid-area: descuentoDos;
+}
+
+.descuentoTres{
+    grid-area: descuentoTres;
+}
+
+.descuentoCuatro{
+    grid-area: descuentoCuatro;
+}
+
+
+.gridFooter{
+    background: #EEEEEE;
+    padding: 20px;
+    display: grid;
+    grid-template-areas: "footer-left footer-right"
+    ;
+}
+
+.footer-left{
+    grid-area: footer-left;
+}
+
+.footer-right{
+    grid-area: footer-right;
+}
+
+
+.footer-copyright{
+    color:rgb(255, 249, 249);
+    background: grey;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    padding: 20px;
+}
+
+
+.objetos-de-ceramica{
+    text-align: center;
+
+}
+
+.section-objetos-de-ceramica{
+    padding: 25px 25px;
+    border: 1px solid black;
+    background-color: #F7F7F7;
+    display: flex;
+    justify-content: space-evenly;  
+}
+
+.section-objetos-de-ceramica img{ 
+    width: 30%;
+}
+
+.alfombras{
+    text-align: center;
+
+}
+
+.section-alfombras{
+    padding: 25px 25px;
+    border: 1px solid black;
+    background-color: #F7F7F7;
+    display: flex;
+    justify-content: space-evenly;  
+}
+
+.section-alfombras img{ 
+    width: 30%;
+}
+
+.textiles-de-cocina{
+    text-align: center;
+
+}
+
+.manteles {
+    padding: 25px 25px;
+    border: 1px solid black;
+    background-color: #F7F7F7;
+    display: flex;
+    justify-content: space-evenly;  
+}
+
+.manteles img{ 
+    width: 30%;
+}
+
+.repasadores{
+    padding: 25px 25px;
+    border: 1px solid black;
+    background-color: #F7F7F7;
+    display: flex;
+    justify-content: space-evenly;  
+}
+
+.repasadores img{ 
+    width: 30%;
+}
+
+
+.platos-de-sitio{
+    padding: 25px 25px;
+    border: 1px solid black;
+    background-color: #F7F7F7;
+    display: flex;
+    justify-content: space-evenly;  
+}
+
+.platos-de-sitio img{ 
+    width: 30%;
+}
+
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+legend {
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Palette Mosaic', cursive;
+    font-family: 'Sora', sans-serif;
+    font-size:xx-large;
+    padding: 20px;
+}
+
+label {
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Palette Mosaic', cursive;
+    font-family: 'Sora', sans-serif;
+    font-size: medium;
+    padding: 5px;
+}
+
+input {
+    padding: 5px;
+    margin: 2px;
+}
+
+textarea {
+    padding: 5px;
+    margin: 2px;
+}
+
+            /*Media querie*/
+
+/*786 px*/
+@media screen and (max-width: 768px){
+    .logo-contenedor{
+        text-align: center;
+    }
+    .item-menu{
+        list-style: none;
+        display: block;
+        justify-content: space-evenly;
+        border-bottom: solid 1px #000;
+        padding-bottom: 20px;
+    }
+    .item-menu li {
+        padding: 5px;
+    }
+    .gridNovedades{
+        border: 1px solid black;
+        display: grid;
+        gap: 1px;
+        grid-template-areas: "novedadUno"
+                            "novedadDos"
+                            "novedadTres";
+    }
+    .novedadUno{
+        grid-area: novedadUno;
+        width: 400px;
+        align-self: center;
+        justify-self: center;
+    }
+    .novedadDos{
+        grid-area: novedadDos;
+        width: 400px;
+        align-self: center;
+        justify-self: center;
+    }
+    .novedadTres{
+        grid-area: novedadTres;
+        width: 400px; 
+        align-self: center;
+        justify-self: center;
+    }
+    .gridDescuentos{
+        border: 1px solid black;
+        display: grid;
+        gap: 1px;
+        grid-template-areas: 
+                            "descuentoUno descuentoDos"
+                            "descuentoTres descuentoCuatro";
+    }
+    .descuentoUno{
+        grid-area: descuentoUno;
+    }
+    .descuentoDos{
+        grid-area: descuentoDos;
+    }
+    .descuentoTres{
+        grid-area: descuentoTres;
+    }
+    .descuentoCuatro{
+        grid-area: descuentoCuatro;
+        ;
+    }
+}
+
+/*vista mobile*/
+
+@media screen and (max-width: 320px){
+    .logo-contenedor{
+        text-align: center;
+    }
+    .item-menu{
+        list-style: none;
+        display: block;
+        justify-content: space-evenly;
+        border-bottom: solid 1px #000;
+        padding-bottom: 20px;
+    }
+    .item-menu li {
+        padding: 5px;
+    }
+    h2 {
+        font-size: x-large;
+    }
+    .gridNovedades{
+        border: 1px solid black;
+        display: grid;
+        gap: 1px;
+        grid-template-areas: "novedadUno"
+                            "novedadDos"
+                            "novedadTres";
+    }
+    .novedadUno{
+        grid-area: novedadUno;
+        width: 200px;
+        align-self: center;
+        justify-self: center;
+    }
+    .novedadDos{
+        grid-area: novedadDos;
+        width: 200px;
+        align-self: center;
+        justify-self: center;
+    }
+    .novedadTres{
+        grid-area: novedadTres;
+        width: 200px; 
+        align-self: center;
+        justify-self: center;
+    }
+    .gridDescuentos{
+        border: 1px solid black;
+        display: grid;
+        gap: 1px;
+        grid-template-areas: "descuentoUno"
+                            "descuentoDos"
+                            "descuentoTres"
+                            "descuentoCuatro";
+    }
+    .descuentoUno{
+        grid-area: descuentoUno;
+        align-self: center;
+        justify-self: center;
+    }
+    .descuentoDos{
+        grid-area: descuentoDos;
+        align-self: center;
+        justify-self: center;
+    }
+    .descuentoTres{
+        grid-area: descuentoTres;
+        align-self: center;
+        justify-self: center;
+    }
+    .descuentoCuatro{
+        grid-area: descuentoCuatro;
+        align-self: center;
+        justify-self: center;
+    }
+    .gridFooter{
+        display: grid;
+        grid-template-areas:"footer-left"
+                            "footer-right";
+    }
+    .footer-left{
+        grid-area: footer-left;
+    }
+    .footer-right{
+        grid-area: footer-right;
+    }
+}
