@@ -54,8 +54,8 @@ a {
     color: black;
 }
 
-.item-menu:hover{
-    color: black;
+.item-menu li a:hover{
+    color: grey;
     font-weight: bold
 }
 
@@ -96,7 +96,6 @@ h3{
 
 .novedades{
     text-align: center;
-
 }
 
 /* grid con imagenes de novedades*/
@@ -111,6 +110,19 @@ h3{
 
 .gridNovedades img{ 
     width: 100%;
+    animation-duration: 5s;
+    animation-name: aparecer;
+    animation-iteration-count: initial;
+}
+
+/* animacion aparecer lento*/
+@keyframes aparecer {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 
 .novedadUno{
@@ -126,8 +138,14 @@ h3{
 
 .descuentos{
     text-align: center;
-
+    margin-top: 250px;
+    transition: margin 1s;
 }
+
+.fadeIn {
+    margin-top: 0;
+}
+
 
 /* grid de imagenes de descuentos*/
 .gridDescuentos{
@@ -222,7 +240,6 @@ h3{
 
 .textiles-de-cocina{
     text-align: center;
-
 }
 
 .manteles {
@@ -448,4 +465,8 @@ textarea {
     .footer-right{
         grid-area: footer-right;
     }
+}
+
+.gridFooter {
+    background-image: linear-gradient(to bottom, white, grey);
 }

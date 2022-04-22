@@ -53,8 +53,8 @@
                         <img src="./multimedia/novedad3.png" alt="novedad3">
                     </div>
             </div>
-        </section>  
-        <section class="descuentos"> 
+        </section> 
+        <section id="seccionDescuento" class="descuentos"> 
             <h2>DESCUENTOS</h2>
             <!-- grid con imagenes de descuentos -->
             <div class="gridDescuentos">
@@ -117,5 +117,16 @@
             <p>Copyright CEHOME- 2022. Todos los derechos reservados. Defensa de las y los consumidores</p>
         </div>
     </footer>
+     <!--Link para acceder a IG-->
+   <script>
+        window.addEventListener('scroll', function() {
+            var element = document.querySelector('#seccionDescuento');
+            var position = element.getBoundingClientRect();
+        
+            if(position.top < window.innerHeight && position.bottom >= 0) {
+                element.classList.add("fadeIn");
+            }
+        });
+    </script>
 </body>
 </html>
