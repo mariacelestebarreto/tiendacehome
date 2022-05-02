@@ -25,13 +25,17 @@
     text-decoration: none;
 }  
     
+.font {
+    font-family: 'Montserrat', sans-serif !important;
+     color: black !important;
+}
+
 a {
     font-family: 'Montserrat', sans-serif;
     font-family: 'Palette Mosaic', cursive;
     font-family: 'Sora', sans-serif;
     color: black;
 }
-
 
 ul {
     text-decoration: none;
