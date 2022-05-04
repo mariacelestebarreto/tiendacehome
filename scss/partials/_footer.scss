@@ -1,0 +1,19 @@
+@import 'variables/_colors';
+@import 'variables/_fonts';
+
+footer {
+    text-align: center;
+
+    .footer-copyright{
+        color: $white;
+        background: $gris;
+        font-family: $fuenteprincipal;
+        font-size: 12px;
+        padding: 40px;
+        margin-top: 20px;
+    }
+
+    .section-footer-categorias-item{
+        padding: 3px;
+    }
+}

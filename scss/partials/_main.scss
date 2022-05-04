@@ -1,0 +1,24 @@
+.novedades{
+    text-align: center;
+}
+
+.descuentos{
+    text-align: center;
+    margin-top: 250px;
+    transition: margin 1s;
+}
+
+/* animacion aparecer lento*/
+@keyframes aparecer {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+
+.fadeIn {
+    margin-top: 0;
+}

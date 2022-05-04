@@ -1,154 +1,84 @@
+header .header {
+  text-align: center;
+  color: #000;
+  background: #fff9f9;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 12px;
+  padding: 2px; }
 
-*{
-    margin: 0;
-    padding: 0;
-}
-
-.header {
-    text-align: center;
-    color:#000;
-    background: #EEEEEE;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 12px;
-    padding: 2px;
-}
-
-.logo-contenedor {
-    width: 25%;
-}
-
-.text-center {
-    text-align: center!important;
-}
-
-.no-underline{
-    text-decoration: none;
-}  
-    
-.font {
-    font-family: 'Montserrat', sans-serif !important;
-     color: black !important;
-}
-
-a {
-    font-family: 'Montserrat', sans-serif;
-    font-family: 'Palette Mosaic', cursive;
-    font-family: 'Sora', sans-serif;
-    color: black;
-}
-
-ul {
-    text-decoration: none;
-    justify-content: space-evenly;
-    width: 100%;
-}
-
-li {
-    list-style:none
-}
-
-p {
-    text-decoration: none;
-    font-family: 'Montserrat', sans-serif;
-    font-family: 'Palette Mosaic', cursive;
-    font-family: 'Sora', sans-serif;
-    color: black;
-}
-
-h2{
-    text-decoration: none;
-    font-family: 'Montserrat', sans-serif;
-    font-family: 'Palette Mosaic', cursive;
-    font-family: 'Sora', sans-serif;
-    font-size:xx-large;
-    padding: 20px;
-}
-
-h3{
-    text-decoration: none;
-    font-family: 'Montserrat', sans-serif;
-    font-family: 'Palette Mosaic', cursive;
-    font-family: 'Sora', sans-serif;
-    font-size:large;
-    padding: 20px;
-}
-
-.section-footer-categorias-item{
-    padding: 3px;
-}
-
-.logo {
+header .logo-contenedor {
+  width: 25%; }
+  header .logo-contenedor .logo {
     width: 200px;
-    margin: 40px 20px;
-}
+    margin: 40px 20px; }
 
-.novedades{
-    text-align: center;
-}
-
-
-/* animacion aparecer lento*/
-@keyframes aparecer {
-    0% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
-}
-
-.descuentos{
-    text-align: center;
-    margin-top: 250px;
-    transition: margin 1s;
-}
-
-.fadeIn {
-    margin-top: 0;
-}
-
-.footer {
-    text-align: center;
-}
-
-.footer-copyright{
-    color:rgb(255, 249, 249);
+footer {
+  text-align: center; }
+  footer .footer-copyright {
+    color: #fff9f9;
     background: grey;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 12px;
     padding: 40px;
-    margin-top: 20px;
-}
+    margin-top: 20px; }
+  footer .section-footer-categorias-item {
+    padding: 3px; }
 
-.formulario{
-    display: flex;
-    flex-direction: column;
-}
+* {
+  margin: 0;
+  padding: 0; }
+
+.text-center {
+  text-align: center !important; }
+
+.no-underline {
+  text-decoration: none; }
+
+.fontlogin {
+  font-family: Montserrat, sans-serif !important;
+  color: #000 !important; }
+
+a {
+  font-family: Montserrat, sans-serif;
+  color: #000; }
+
+ul {
+  text-decoration: none;
+  justify-content: space-evenly;
+  width: 100%; }
+
+li {
+  list-style: none; }
+
+p {
+  text-decoration: none;
+  font-family: Montserrat, sans-serif;
+  color: #000; }
+
+h2 {
+  text-decoration: none;
+  font-family: Montserrat, sans-serif;
+  font-size: xx-large;
+  padding: 20px; }
+
+h3 {
+  text-decoration: none;
+  font-family: Montserrat, sans-serif;
+  font-size: large;
+  padding: 20px; }
+
+.formulario {
+  display: flex;
+  flex-direction: column; }
 
 legend {
-    text-decoration: none;
-    font-family: 'Montserrat', sans-serif;
-    font-family: 'Palette Mosaic', cursive;
-    font-family: 'Sora', sans-serif;
-    font-size:xx-large;
-    padding: 20px;
-}
+  text-decoration: none;
+  font-family: Montserrat, sans-serif;
+  font-size: xx-large;
+  padding: 20px; }
 
 label {
-    text-decoration: none;
-    font-family: 'Montserrat', sans-serif;
-    font-family: 'Palette Mosaic', cursive;
-    font-family: 'Sora', sans-serif;
-    font-size: medium;
-    padding: 5px;
-}
-
-input {
-    padding: 5px;
-    margin: 2px;
-}
-
-textarea {
-    padding: 5px;
-    margin: 2px;
-}
+  text-decoration: none;
+  font-family: Montserrat, sans-serif;
+  font-size: medium;
+  padding: 5px; }
