@@ -1,9 +1,12 @@
+@import 'variables/_variables';
+
+
 .novedades{
-    text-align: center;
+    text-align: $alinear-al-centro;
 }
 
 .descuentos{
-    text-align: center;
+    text-align: $alinear-al-centro;
     margin-top: 250px;
     transition: margin 1s;
 }

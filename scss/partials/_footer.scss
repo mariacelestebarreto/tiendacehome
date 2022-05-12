@@ -1,16 +1,11 @@
-@import 'variables/_colors';
-@import 'variables/_fonts';
+@import 'variables/_variables';
+@import 'sass2/_mixin';
 
 footer {
-    text-align: center;
+    text-align: $alinear-al-centro;
 
     .footer-copyright{
-        color: $white;
-        background: $gris;
-        font-family: $fuenteprincipal;
-        font-size: 12px;
-        padding: 40px;
-        margin-top: 20px;
+        @include banner(25px);
     }
 
     .section-footer-categorias-item{

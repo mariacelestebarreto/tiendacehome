@@ -1,0 +1,13 @@
+@import 'variables/_variables';
+
+@mixin banner($padding) {
+    text-align: $alinear-al-centro;
+    color: $black;
+    background: $gris;
+    font-family: $fuenteprincipal;
+    font-size: 10px;
+    padding: $padding;
+}
+
+
+

@@ -1,15 +1,10 @@
-@import 'variables/_colors';
-@import 'variables/_fonts';
+@import 'variables/_variables';
+@import 'sass2/_mixin';
 
 header {
     .header {
-        text-align: center;
-        color: $black;
-        background: $white;
-        font-family: $fuenteprincipal;
-        font-size: 12px;
-        padding: 2px;
-    }
+       @include banner(5px);
+    } 
 
     .logo-contenedor {
         width: 25%;

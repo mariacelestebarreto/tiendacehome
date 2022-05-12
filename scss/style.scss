@@ -1,7 +1,9 @@
 @import 'partials/header';
+@import 'partials/main';
 @import 'partials/footer';
-@import 'variables/colors';
-@import 'variables/fonts';
+@import 'variables/_variables';
+@import 'sass2/mixin';
+@import 'sass2/extend';
 
 *{
     margin: 0;
@@ -10,7 +12,7 @@
 
 
 .text-center {
-    text-align: center!important;
+    text-align: $alinear-al-centro!important;
 }
 
 .no-underline{
@@ -43,14 +45,14 @@ p {
     color: $black;
 }
 
-h2{
+h1{
     text-decoration: none;
     font-family: $fuentesecundaria;
     font-size:xx-large;
     padding: 20px;
 }
 
-h3{
+h2{
     text-decoration: none;
     font-family: $fuentesecundaria;
     font-size:large;
